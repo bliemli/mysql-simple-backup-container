@@ -50,7 +50,6 @@
                 "replicas": 1,
                 "test": false,
                 "selector": {
-                    "app": "${APP_NAME}",
                     "deploymentconfig": "mysql-backup-persistent"
                 },
                 "template": {
